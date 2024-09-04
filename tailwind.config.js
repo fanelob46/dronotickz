@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage:{
         'hero': "url('../src/Images/hero.jpg')",
+        'about': "url('../src/Images/drone8.jpg')",
 
       }
     },
