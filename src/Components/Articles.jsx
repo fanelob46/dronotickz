@@ -26,7 +26,8 @@ const Articles = () => {
                  </div>
                 </div>
                 <div className='text-center'>
-                    <p> How to automate surveilance drones </p>
+                    <p> How  to automate
+                    surveillance drones </p>
                 </div>
 
             </div>
@@ -42,7 +43,7 @@ const Articles = () => {
                 </div>
                 
                 <div className='text-center'>
-                    <p> How to automate surveilance drones </p>
+                    <p> Robotics and Artificial Intelligence </p>
                 </div>
 
             </div>
@@ -57,7 +58,7 @@ const Articles = () => {
                  </div>
                 </div>
                 <div className='text-center'>
-                    <p> How to automate surveilance drones </p>
+                    <p className='text-[16px]'> Improving Lives through Robotic Prosthetics </p>
                 </div>
 
             </div>
@@ -71,8 +72,8 @@ const Articles = () => {
                  
                  </div>
                 </div>
-                <div className='text-center'>
-                    <p> How to automate surveilance drones </p>
+                <div className='text-center '>
+                    <p className='text-[16px] font-light'> Power of Robotics in Agriculture </p>
                 </div>
 
             </div>

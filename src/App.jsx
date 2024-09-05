@@ -3,6 +3,7 @@ import Hero from './Components/Hero'
 import Articles from './Components/Articles'
 import About from './Components/About'
 import Substriction from './Components/Substriction'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <Articles/>
      <About/>
      <Substriction/>
+     <Footer/>
     </>
   )
 }
