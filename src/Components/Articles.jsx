@@ -17,10 +17,10 @@ const Articles = () => {
         </div>
         
       <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:space-x-10 2xl:px-10'>
-        <div className='size-[300px]  bg-[#f8f8f8]  shadow-lg  2xl:size-[600px]'>
+        <div className='size-[300px]  bg-[#f8f8f8]  shadow-lg  2xl:size-[600px] kobus:size-[450px]'>
             <img src={drone1} alt="" />
             <div className='card-content'>
-            <div className='py-5 2xl:py-10'>
+            <div className='py-5 2xl:py-10 kobus:py-6'>
                 <div className='h-[5px] w-[60px] bg-black m-auto '>
                  
                  </div>
@@ -33,10 +33,10 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px] 2xl:size-[600px]  bg-[#f8f8f8] m-10 shadow-lg'>
+        <div className='size-[300px] 2xl:size-[600px] kobus:size-[450px]  bg-[#f8f8f8] m-10 shadow-lg'>
             <img src={drone2} alt="" />
             <div className='card-content'>
-                <div className='py-5 2xl:py-10'>
+                <div className='py-5 2xl:py-10 kobus:py-6'>
                 <div className='h-[5px] w-[60px] bg-black m-auto'>
                  
                  </div>
@@ -49,10 +49,10 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px] bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px]'>
+        <div className='size-[300px] bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px]'>
             <img src={drone3} alt="" />
             <div className='card-content'>
-            <div className='py-5 2xl:py-10'>
+            <div className='py-5 2xl:py-10 kobus:py-6'>
                 <div className='h-[5px] w-[60px] bg-black m-auto'>
                  
                  </div>
@@ -64,10 +64,10 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px]  bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px]'>
+        <div className='size-[300px]  bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px] kobus:gap-2'>
             <img src={drone4} alt="" />
             <div className='card-content'>
-            <div className='py-5 2xl:py-10'>
+            <div className='py-5 2xl:py-10 kobus:py-6'>
                 <div className='h-[5px] w-[60px] bg-black m-auto'>
                  
                  </div>

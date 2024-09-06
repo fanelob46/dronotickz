@@ -10,6 +10,9 @@ export default {
         'hero': "url('../src/Images/hero.jpg')",
         'about': "url('../src/Images/drone8.jpg')",
 
+      },
+      screens:{
+        'kobus': '2012px'
       }
     },
   },
