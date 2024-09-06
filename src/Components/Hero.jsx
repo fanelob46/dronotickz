@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='bg-hero bg-center  bg-cover h-[50vh] md:h-[100vh] '>
         <NavBar/>
-     <div className="text-center  xl:pt-64 pt-24 md:pt-48 2xl:pt-[550px]">
+     <div className="text-center  xl:pt-64 pt-24 md:pt-48 2xl:pt-[550px] kobus:pt-72">
 
         <div className="md:space-y-10">
         <div >
