@@ -12,7 +12,8 @@ export default {
 
       },
       screens:{
-        'kobus': '2012px'
+        'kobus': '2012px',
+        'pc' : '1740px'
       }
     },
   },

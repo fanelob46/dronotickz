@@ -16,8 +16,8 @@ const Articles = () => {
                 </div>
         </div>
         
-      <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:space-x-10 2xl:px-10'>
-        <div className='size-[300px]  bg-[#f8f8f8]  shadow-lg  2xl:size-[600px] kobus:size-[450px]'>
+      <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:space-x-10 2xl:px-10 '>
+        <div className='size-[300px]  bg-[#f8f8f8]  shadow-lg  2xl:size-[600px] kobus:size-[450px] pc:h-[460px] pc:w-[400px] '>
             <img src={drone1} alt="" />
             <div className='card-content'>
             <div className='py-5 2xl:py-10 kobus:py-6'>
@@ -25,7 +25,7 @@ const Articles = () => {
                  
                  </div>
                 </div>
-                <div className='text-center 2xl:text-3xl'>
+                <div className='text-center 2xl:text-3xl pc:'>
                     <p> How  to automate
                     surveillance drones </p>
                 </div>
@@ -33,7 +33,7 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px] 2xl:size-[600px] kobus:size-[450px]  bg-[#f8f8f8] m-10 shadow-lg'>
+        <div className='size-[300px] 2xl:size-[600px] kobus:size-[450px] pc:h-[460px] pc:w-[400px]  bg-[#f8f8f8] m-10 shadow-lg'>
             <img src={drone2} alt="" />
             <div className='card-content'>
                 <div className='py-5 2xl:py-10 kobus:py-6'>
@@ -49,7 +49,7 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px] bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px]'>
+        <div className='size-[300px] bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px] pc:h-[460px] pc:w-[400px] '>
             <img src={drone3} alt="" />
             <div className='card-content'>
             <div className='py-5 2xl:py-10 kobus:py-6'>
@@ -64,7 +64,7 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px]  bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px] kobus:gap-2'>
+        <div className='size-[300px]  bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px] kobus:gap-2 pc:h-[460px] pc:w-[400px] pc:space-x-3'>
             <img src={drone4} alt="" />
             <div className='card-content'>
             <div className='py-5 2xl:py-10 kobus:py-6'>
