@@ -15,7 +15,7 @@ const NavBar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-7 2xl:text-[32px] pt-5">
           <li>
-            <a href="#Aboutus">ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li>
             <a href="#articles">ARTICLES</a>

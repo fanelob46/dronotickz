@@ -19,7 +19,7 @@ const Footer = () => {
         
         <ul className='flex space-x-7 text-[12px] xl:pb 2xl:text-[32px] xl:text-2xl 2xl:text-4xl '>
             <li className=''>
-                <a href="#Aboutus">ABOUT</a>
+                <a href="#about">ABOUT</a>
             </li>
             <li>
                 <a href="#articles">ARTICLES</a>

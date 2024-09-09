@@ -6,7 +6,7 @@ import drone4 from '../Images/drone4.jpg'
 
 const Articles = () => {
   return (
-    <div className="bg-[#f8f8f8]  py-10  xl:py-40 2xl:py-56" id="articles ">
+    <div  className="bg-[#f8f8f8]  py-10  xl:py-40 2xl:py-56" id="articles">
         <div className='text-center '>
             <h1 className='text-[32px] uppercase'>Latest Articles</h1>
             <div className='py-10'>

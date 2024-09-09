@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
   
- <div className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 lg:h-[100vh]'>
+ <div id='about' className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 lg:h-[100vh]'>
   <div>
   <div className='bg-about bg-center bg-cover h-[100vh] lg:h-[100vh]'>
 
