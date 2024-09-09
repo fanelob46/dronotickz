@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div className='grid grid-cols-1 lg:flex lg:justify-between 2xl:py-10  xl:py-4'>
         <div className='flex justify-center pt-8 gap-5 px-8 '>
-        <FaFacebook className='text-[#CBDEEC] size-10 xl:size-12 2xl:size-20'  />
-        <FaInstagram className='text-[#CBDEEC]  size-10 xl:size-12 2xl:size-20'/>
-        <FaPinterest className='text-[#CBDEEC] size-10 xl:size-12 2xl:size-20'/>
+        <FaFacebook className='text-[#CBDEEC] size-10 xl:size-12 2xl:size-20 kobus:size-18 pc:size-16'  />
+        <FaInstagram className='text-[#CBDEEC]  size-10 xl:size-12 2xl:size-20 kobus:size-18 pc:size-16'/>
+        <FaPinterest className='text-[#CBDEEC] size-10 xl:size-12 2xl:size-20 kobus:size-18 pc:size-16'/>
 
         </div>
         <div >

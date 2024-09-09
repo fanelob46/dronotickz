@@ -13,7 +13,7 @@ const NavBar = () => {
         <h2 className="2xl:text-[40px]">D<span className="text-white">Z</span></h2>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-7 2xl:text-[32px] pt-5">
+        <ul className="hidden md:flex space-x-7 2xl:text-[32px] font-light pt-5">
           <li>
             <a href="#about">ABOUT</a>
           </li>
@@ -23,7 +23,7 @@ const NavBar = () => {
         </ul>
 
         <a href="#Subcription" className="hidden md:inline-block">
-          <button type="button" className="border-2 border-black py-1 px-7 2xl:text-[32px]">SUBSCRIBE</button>
+          <button type="button" className="border-2 border-black py-1 px-7 font-light 2xl:text-[32px]">SUBSCRIBE</button>
         </a>
 
         {/* Hamburger Icon */}

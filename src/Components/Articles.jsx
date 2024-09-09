@@ -7,7 +7,7 @@ import drone4 from '../Images/drone4.jpg'
 const Articles = () => {
   return (
     <div  className="bg-[#f8f8f8]  py-10  xl:py-40 2xl:py-56" id="articles">
-        <div className='text-center '>
+        <div className='text-center pb-24'>
             <h1 className='text-[32px] uppercase'>Latest Articles</h1>
             <div className='py-10'>
                 <div className='h-[3px] w-[60px] bg-black m-auto'>
@@ -17,42 +17,42 @@ const Articles = () => {
         </div>
         
       <div className='grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:space-x-10 2xl:px-10 '>
-        <div className='size-[300px]  bg-[#f8f8f8]  shadow-lg  2xl:size-[600px] kobus:size-[450px] pc:h-[460px] pc:w-[400px] '>
+        <div className='h-[350px] w-[300px] bg-[#f8f8f8]  shadow-lg  2xl:size-[600px] kobus:w-[450px] kobus:h-[600px] pc:h-[480px] pc:w-[400px] '>
             <img src={drone1} alt="" />
             <div className='card-content'>
-            <div className='py-5 2xl:py-10 kobus:py-6'>
+            <div className='py-10 2xl:py-10 kobus:py-14'>
                 <div className='h-[5px] w-[60px] bg-black m-auto '>
                  
                  </div>
                 </div>
                 <div className='text-center 2xl:text-3xl pc:'>
-                    <p> How  to automate
+                    <p className='pc:px-4'> How  to automate
                     surveillance drones </p>
                 </div>
 
             </div>
 
         </div>
-        <div className='size-[300px] 2xl:size-[600px] kobus:size-[450px] pc:h-[460px] pc:w-[400px]  bg-[#f8f8f8] m-10 shadow-lg'>
+        <div className='h-[350px] w-[300px] 2xl:size-[600px] kobus:w-[450px] kobus:h-[600px] pc:h-[460px] pc:w-[400px]  bg-[#f8f8f8] m-10 shadow-lg'>
             <img src={drone2} alt="" />
             <div className='card-content'>
-                <div className='py-5 2xl:py-10 kobus:py-6'>
+                <div className='py-10 2xl:py-10 kobus:py-14'>
                 <div className='h-[5px] w-[60px] bg-black m-auto'>
                  
                  </div>
                 </div>
                 
                 <div className='text-center 2xl:text-3xl'>
-                    <p> Robotics and Artificial Intelligence </p>
+                    <p> Robotics and Artificial Intelligences </p>
                 </div>
 
             </div>
 
         </div>
-        <div className='size-[300px] bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px] pc:h-[460px] pc:w-[400px] '>
+        <div className='h-[350px] w-[300px] bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:w-[450px] kobus:h-[600px] pc:h-[460px] pc:w-[400px] '>
             <img src={drone3} alt="" />
             <div className='card-content'>
-            <div className='py-5 2xl:py-10 kobus:py-6'>
+            <div className='py-10 2xl:py-10 kobus:py-14'>
                 <div className='h-[5px] w-[60px] bg-black m-auto'>
                  
                  </div>
@@ -64,10 +64,10 @@ const Articles = () => {
             </div>
 
         </div>
-        <div className='size-[300px]  bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:size-[450px] kobus:gap-2 pc:h-[460px] pc:w-[400px] pc:space-x-3'>
+        <div className='h-[350px] w-[300px]  bg-[#f8f8f8] m-10 shadow-lg 2xl:size-[600px] kobus:w-[450px] kobus:h-[600px] kobus:gap-2 pc:h-[460px] pc:w-[400px] pc:space-x-3'>
             <img src={drone4} alt="" />
             <div className='card-content'>
-            <div className='py-5 2xl:py-10 kobus:py-6'>
+            <div className='py-10 2xl:py-10 kobus:py-14'>
                 <div className='h-[5px] w-[60px] bg-black m-auto'>
                  
                  </div>
