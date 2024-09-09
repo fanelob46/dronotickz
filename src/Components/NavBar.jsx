@@ -40,7 +40,7 @@ const NavBar = () => {
       <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
         <ul className="flex flex-col space-y-3 text-center text-[16px]">
           <li>
-            <a href="#Aboutus">ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li>
             <a href="#articles">ARTICLES</a>
